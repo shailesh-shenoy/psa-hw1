@@ -4,18 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adf16a8-0342-4680-bf8f-4eaa5803f926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/Main.java" afterDir="false" />
+    <list default="true" id="4adf16a8-0342-4680-bf8f-4eaa5803f926" name="Changes" comment="Upload psa hw 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/ArrayShuffler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/ArraySumCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/CircularlyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/LinkedListWithHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/LinkedListWithTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/PartitionArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/SubstitutionCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/TwoSumPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/info6205/VowelConsonantChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/info6205/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/info6205/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,26 +45,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;S:/PSA/psa-hw-1/src/main/java/org/info6205/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayShuffler.executor": "Run",
+    "Application.ArraySumCheck.executor": "Run",
+    "Application.DoublyLinkedList.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PalindromeChecker.executor": "Run",
+    "Application.PartitionArray.executor": "Run",
+    "Application.TwoSumPair.executor": "Run",
+    "Application.VowelConsonantChecker.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "S:/PSA/psa-hw-1/src/main/java/org/info6205/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.info6205.Main" />
+}]]></component>
+  <component name="RunManager" selected="Application.ArraySumCheck">
+    <configuration name="ArraySumCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.info6205.ArraySumCheck" />
+      <module name="psa-hw-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.info6205.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.info6205.PalindromeChecker" />
+      <module name="psa-hw-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.info6205.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.info6205.PartitionArray" />
+      <module name="psa-hw-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.info6205.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.info6205.TwoSumPair" />
+      <module name="psa-hw-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.info6205.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VowelConsonantChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.info6205.VowelConsonantChecker" />
       <module name="psa-hw-1" />
       <extension name="coverage">
         <pattern>
@@ -62,7 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ArraySumCheck" />
+        <item itemvalue="Application.TwoSumPair" />
+        <item itemvalue="Application.PartitionArray" />
+        <item itemvalue="Application.VowelConsonantChecker" />
+        <item itemvalue="Application.PalindromeChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -86,11 +165,37 @@
       <workItem from="1706819845701" duration="1972000" />
       <workItem from="1706837712273" duration="7040000" />
       <workItem from="1706913980654" duration="3083000" />
-      <workItem from="1706999834900" duration="697000" />
+      <workItem from="1706999834900" duration="1653000" />
+      <workItem from="1707108147249" duration="803000" />
+      <workItem from="1707171987440" duration="6866000" />
     </task>
+    <task id="LOCAL-00001" summary="Upload psa hw 1">
+      <option name="closed" value="true" />
+      <created>1707001324275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707001324275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upload psa hw 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload psa hw 1" />
   </component>
 </project>
